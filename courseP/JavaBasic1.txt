@@ -1,0 +1,280 @@
+import java.util.Scanner;
+
+public class JavaBasic {
+    public static void main(String args[]) {
+        // System.out.println("Hello test");
+
+        // // area of rectangle && perimeter
+        // int a = 5;
+        // int b = 10;
+        // int c = 2 * (a + b);
+        // int d = a * b;
+        // System.out.println(c + "perimeter");
+        // System.out.println(d + "area");
+
+        // // input
+        // Scanner sc = new Scanner(System.in);
+        // // String input = sc.next();
+        // // System.out.println(input);
+
+        // String input1 = sc.nextLine();
+        // System.out.println(input1);
+
+        // // add two number taking input
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // int sum = a + b;
+        // System.out.println(sum + " sum::");
+        // int prod = a * b;
+        // System.out.println(prod + " product ::");
+
+        // area of circle
+        // Scanner sc = new Scanner(System.in);
+        // float r = sc.nextFloat();
+        // float area = 3.14f * r * r;
+        // System.out.println(area + " area of circle::");
+        /// type casting
+        // Scanner sc = new Scanner(System.in);
+        // float number = 99.99f;
+        // int number2 = (int) number;
+        // char ch = 'a';
+        // char ch1 = 'b';
+        // int number = ch;
+        // int number1 = ch1;
+        // System.out.println(number + " number 1::" + number1 + " number 2::");
+        // binary operator
+        // int a = 12;
+        // int b = 6;
+        // System.err.println("sum ::" + (a + b));
+        // System.err.println("subtract ::" + (a - b));
+        // System.err.println("multiply ::" + (a * b));
+        // System.err.println("divide ::" + (a / b));
+        // System.err.println("modulo (remainder)::" + (a % b));
+        // unary operator
+        // increment operator
+        // pre increment
+        // int a = 10;
+        // int b = ++a;
+        // System.out.println(a);
+        // System.out.println(b);
+        // post increment
+        // int a = 10;
+        // int b = a++;
+        // System.out.println(a);
+        // System.out.println(b);
+        // decrement operator
+        // pre decrement
+        // int a = 10;
+        // int b = --a;
+        // System.out.println(a);
+        // System.out.println(b);
+        // post decrement
+        // int a = 10;
+        // int b = a--;
+        // System.out.println(a);
+        // System.out.println(b);
+        // // logical operator //AND
+        // System.out.println((3 > 2) && (5 > 0));
+        // // OR
+        // System.out.println((3 < 2) || (5 < 0));
+        // // NOT
+        // System.out.println(!(0 > 5));
+        // // Assignment Operator
+        // int a = 10;
+        // // a=a+10
+        // a += 10;
+        // System.out.println(a);
+        // if -else
+        // int age = 15;
+        // if (age >= 18) {
+        // System.out.println("Adult:Vote and drive");
+        // }
+        // if (age > 13 && age < 18) {
+        // System.out.println("teenager");
+        // }
+
+        // else {
+        // System.out.println("notvote");
+        // }
+
+        // print largest of 2 number
+        // int n1 = 14;
+        // int n2 = 7;
+        // if (n1 >= n2) {
+        // System.out.println("print largest bumber n1" + n1);
+        // } else {
+        // System.out.println("print n2 ::" + n2);
+        // }
+
+        // even odd
+        // Scanner sc = new Scanner(System.in);
+        // int num = sc.nextInt();
+        // if (num % 2 == 0) {
+        // System.out.println("number is even");
+        // } else {
+        // System.out.println("number is odd");
+        // }
+
+        // // tax calculator
+        // Scanner sc = new Scanner(System.in);
+        // int income = sc.nextInt();
+        // int tax;
+        // if (income < 500000) {
+        // // System.out.println("0% Tax");
+        // tax = 0;
+        // } else if (income >= 500000 && income < 1000000) {
+        // tax = (int) (income * 0.2);
+        // } else {
+        // tax = (int) (income * 0.3);
+        // }
+        // System.out.println("tax is " + tax);
+
+        // while loop
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int count = 1;
+
+        // while (count <= n) {
+        // System.out.println(count);
+        // count++;
+        // // }
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int counter = 1;
+        // int sum = 0;
+        // while (counter <= n) {
+        // // System.out.println(counter);
+        // sum += counter;
+        // counter++;
+        // }
+        // System.out.println(sum);
+
+        // for loop
+        // for (int i = 1; i <= 4; i++) {
+        // System.out.println("****");
+        // }
+        // int j = 1;
+        // while (j <= 4) {
+        // System.out.println("****");
+        // j++;
+        // }
+        // reverse of a number
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // while (n > 0) {
+        // int lastDigit = n % 10;
+        // System.out.print(lastDigit);
+        // n = n / 10;
+        // }
+        // System.out.println();
+
+        // int n = 191299;
+        // int rev = 0;
+        // while (n > 0) {
+        // int lastDigit = n % 10;
+        // rev = (rev * 10) + lastDigit;
+        // n = n / 10;
+        // }
+        // System.out.println("reverse of a number::" + rev);
+
+        // do while
+        // int i = 0;
+        // do {
+        // System.out.println("hello world");
+        // i++;
+        // } while (i <= 5);
+        // break
+        // for (int i = 0; i <= 10; i++) {
+        // if (i == 5) {
+        // break;
+        // }
+        // System.out.println("i am in a loop :: " + i);
+        // }
+        // System.out.println("i am out from loop");
+        // Scanner sc = new Scanner(System.in);
+        // int n =sc.nextInt();
+
+        // break
+        // do {
+        // System.out.println("enter your number :: ");
+        // int n = sc.nextInt();
+        // if (n % 10 == 0) {
+        // break;
+        // }
+        // System.out.println(n);
+        // } while (true);
+
+        // continue
+        // do {
+        // System.out.println("enter your number ::");
+
+        // int n = sc.nextInt();
+        // if (n % 10 == 0) {
+        // continue;
+        // }
+        // System.out.println("number is ::" + n);
+        // } while (true);
+
+        // number is prime
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+
+        // if (n == 2) {
+        // System.out.println("n is prime :");
+        // } else {
+        // boolean isPrime = true;
+        // // for (int i = 2; i <= n - 1; i++) {
+        // for (int i = 2; i <= Math.sqrt(n); i++) {
+        // if (n % i == 0) {
+        // isPrime = false;
+        // }
+        // }
+        // if (isPrime == true) {
+        // System.out.println("n is prime ");
+        // } else {
+        // System.out.println("n is not prime");
+        // }
+        // }
+
+        // nested loop
+
+        // for (int line = 1; line <= 4; line++) {
+        // for (int star = 1; star <= line; star++) {
+        // System.out.print("*");
+        // }
+        // System.out.println();
+        // }
+
+        // inverted loops
+        // int n = 4;
+        // for (int i = 1; i <= n; i++) {
+        // for (int j = 1; j <= n - i + 1; j++) {
+        // System.out.print(j);
+        // }
+        // System.out.println();
+        // }
+
+        // int n = 4;
+        // char ch = 'A';
+        // for (int line = 1; line <= n; line++) {
+        // for (int chars = 1; chars <= line; chars++) {
+        // System.out.print(ch);
+        // ch++;
+        // }
+        // System.out.println();
+        // }
+
+        // functions and methods
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = calculateSum(a, b);// arguments or actual parameters
+        System.out.println("sum is ::" + sum);
+    }
+
+    public static int calculateSum(int num1, int num2) {// parameters or formal parameters
+        int sum = num1 + num2;
+        return sum;
+    }
+}
