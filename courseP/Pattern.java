@@ -139,7 +139,6 @@ public class Pattern {
                 System.out.print("*");
             }
             System.out.println();
-
         }
     }
 
@@ -156,10 +155,8 @@ public class Pattern {
                 } else {
                     System.out.print(" ");
                 }
-
             }
             System.out.println();
-
         }
     }
 
@@ -172,7 +169,6 @@ public class Pattern {
                 System.out.print("*");
             }
             System.out.println();
-
         }
     }
 
