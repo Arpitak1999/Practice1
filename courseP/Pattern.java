@@ -1,52 +1,37 @@
 public class Pattern {
     public static void main(String[] args) {
 
-        // triangle up
-        /*
-        *
-        **
-        ***
-        ****
-        *****
-         */
-        // for (int i = 1; i <= 5; i++) {
-        // for (int j = 1; j <= i; j++) {
-        // System.out.print("*");
-        // }
-        // System.out.println();
-        // }
-
-        // num_triangle(7);
-        // System.out.println();
-        // upTriangleStar(5);
-        // System.out.println();
-        // square(5);
-        // System.out.println();
-        // downTriangle(5);
-        // System.out.println();
-        // downTrianglenum(7);
-        // System.out.println();
-        // downTriangleIncNum(5);
-        // System.out.println();
-        // upTriangle(5);
-        // System.out.println();
-        // rectangle(4, 5);
-        // System.out.println();
-        // hollow_retangle(4, 5);
-        // System.out.println();
-        // rohombus(6);
-        // System.out.println();
-        // hollow_rohombus(4, 5);
-        // System.out.println();
-        // hollowSquare(5);
-        // System.out.println();
-        // inertedDownTriangle(5);
-        // System.out.println();
-        // invertedUpTriangleStar(5);
-        // System.out.println();
-        // zeroOneTriangle(5);
-        // System.out.println();
-        // butterfly(4);
+        num_triangle(7);
+        System.out.println();
+        upTriangleStar(5);
+        System.out.println();
+        square(5);
+        System.out.println();
+        downTriangle(5);
+        System.out.println();
+        downTrianglenum(7);
+        System.out.println();
+        downTriangleIncNum(5);
+        System.out.println();
+        upTriangle(5);
+        System.out.println();
+        rectangle(4, 5);
+        System.out.println();
+        hollow_retangle(4, 5);
+        System.out.println();
+        rohombus(6);
+        System.out.println();
+        hollow_rohombus(4, 5);
+        System.out.println();
+        hollowSquare(5);
+        System.out.println();
+        inertedDownTriangle(5);
+        System.out.println();
+        invertedUpTriangleStar(5);
+        System.out.println();
+        zeroOneTriangle(5);
+        System.out.println();
+        butterfly(4);
         pyramid(4);
         System.err.println();
         diamond(4);
